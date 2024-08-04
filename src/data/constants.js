@@ -323,7 +323,7 @@ export const projects = [
     tags: ["React Native", "JavaScript", "Axios"],
     category: "android app",
     github: "https://github.com/Richardchan1131/Reactnative-jobfinding.git",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/richardchan1131/Job-finder-App",
   },
   {
     id: 4,
@@ -375,7 +375,7 @@ export const projects = [
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
     github: "https://github.com/Richardchan1131/Java-Quiz-app.git",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    webapp: "https://github.com/richardchan/Quiz-Earn",
   },
 
 ];

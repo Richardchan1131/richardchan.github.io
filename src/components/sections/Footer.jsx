@@ -1,10 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import GithubIcon from "@mui/icons-material/GitHub";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -88,7 +85,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Richard Chan</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -97,20 +94,20 @@ const Footer = () => {
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
+          <SocialMediaIcon href={Bio.Skype} target="display" title="live:.cid.5617106bb40d1bc1">
+          <i class="fab fa-skype"></i>
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
+          <SocialMediaIcon href={Bio.Discord} target="display" title="kind_0001">
+          <i class="fab fa-discord"></i>
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
+          <SocialMediaIcon href={Bio.Gmail} target="display" title="richardchan1131@gmail.com">
+          <i class="fab fa-google"></i>
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
+          <SocialMediaIcon href={Bio.github} target="display" title="richardchan1131">
+            <GithubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Richard Chan. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
